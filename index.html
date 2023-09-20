@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Formu Eksiksiz Doldurun</h1>
+    <hr />
+    <form>
+      <section class="section1">
+        <h3>Hesap Bilgileriniz</h3>
+        <div>
+          <label for="username"> Kullanıcı Adı</label>
+          <span>:</span>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Kullanıcı adı giriniz"
+          />
+        </div>
+        <div>
+          <label for="email"> Email Girinix</label>
+          <span>:</span>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email giriniz"
+          />
+        </div>
+        <div>
+          <label for="password"> Şifre gir</label>
+          <span>:</span>
+          <input
+            type="password"
+            id="password"
+            name="username"
+            placeholder="Şifre giriniz"
+          />
+        </div>
+      </section>
+      <section class="section2">
+        <h3>Kişisel Bilgileriniz</h3>
+        <div>
+          <label for="name"> Adı</label>
+          <span>:</span>
+          <input type="text" id="name" name="name" placeholder="Adı giriniz" />
+        </div>
+        <div>
+          <label for="soyad"> Soyad Girinix</label>
+          <span>:</span>
+          <input
+            type="soyad"
+            id="soyad"
+            name="soyad"
+            placeholder="soyad  giriniz"
+          />
+        </div>
+        <div>
+          <label for="sehir">Sehir</label>
+          <span>:</span>
+          <select id="sehir" name="sehir">
+            <option value="seciniz" selected disabled>seciniz</option>
+
+            <option value="izmir">Izmir</option>
+            <option value="kayseri">Kayseri</option>
+            <option value="istanbul">Istanbul</option>
+            <option value="ankara">Ankara</option>
+          </select>
+        </div>
+        <div>
+          <label for="Cinsiyet">Cinsiyet</label>
+          <span>:</span>
+          <input type="radio" name="erkek" is="erkek" />
+          <label for="erkek">Erkek</label>
+          <input type="radio" name="kadın" is="kadın" />
+          <label for="kadın">kadın</label>
+        </div>
+
+        <label for="hobi">Hobileriniz</label>
+        <span>:</span>
+        <input type="checkbox" name="sinema" id="sinema" />
+        <label for="sinema">Sinema</label>
+        <input type="checkbox" name="gezmek" id="gezmek" />
+        <label for="gezmek">Gezmek</label>
+        <input type="checkbox" name="spor" id="spor" />
+        <label for="spor">SPOR</label>
+        <input type="checkbox" name="kitap" id="kitap" />
+        <label for="kitap">Kitap</label>
+
+        <div>
+          <input type="submit" />
+          <input type="reset" />
+        </div>
+      </section>
+    </form>
+  </body>
+</html>
